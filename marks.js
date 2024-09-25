@@ -4,6 +4,3 @@ function marks() {
     var result = document.getElementById("Results");
     result.innerHTML = name + ", YOU HAVE SCORED : " + pass.toFixed(2)+"%";
 }
-if(marks >= 0 && marks <= 35){
-    
-}
