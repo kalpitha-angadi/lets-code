@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> THE WHITE CASHEW</title>
+    <style>
+        body {
+            font-family: cursive, sans-serif;
+            text-align: center;
+            background-color: burlywood;
+        }
+        table {
+            margin: 0 auto;
+            width: 50%;
+            border-collapse: collapse;
+            background-color: #fff;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: whitesmoke;
+            color: black;
+        }
+        .calculate-btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: whitesmoke;
+            color: black;
+            border: none;
+            cursor: pointer;
+        }
+        .calculate-btn:hover {
+            background-color: blanchedalmond;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfj8iuVcC6UdD0Semr-tG-CTbOrDlCkn57og&s" alt="">
+    <h1>THE WHITE CASHEW</h1>
+    <form>
+        <table border="1">
+            <tr>
+                <th>Item</th>
+                <th>Price</th>
+                <th>Quantity</th>
+            </tr>
+            <tr>
+                <td>Burger</td>
+                <td>79.00</td>
+                <td><input type="number" value="0" min="0"></td>
+            </tr>
+            <tr>
+                <td>Pizza</td>
+                <td>100.00</td>
+                <td><input type="number" value="0" min="0"></td>
+            </tr>
+            <tr>
+                <td>French Fries</td>
+                <td>49.00</td>
+                <td><input type="number" value="0" min="0"></td>
+            </tr>
+            <tr>
+                <td>Mojitos</td>
+                <td>89.00</td>
+                <td><input type="number" value="0" min="0"></td>
+            </tr>
+            <td>Pasta</td>
+                <td>100.00</td>
+                <td><input type="number" value="0" min="0"></td>
+            </tr>
+            <tr>
+                <td>Spaghetti</td>
+                <td>89.00</td>
+                <td><input type="number" value="0" min="0"></td>
+            </tr>
+            <tr>
+                <td>MilkShakes</td>
+                <td>120.00</td>
+                <td><input type="number" value="0" min="0"></td>
+            </tr>
+        </table>
+        <button type="button" class="calculate-btn">Calculate Total</button>
+        <h3>Total: ₹ <span id="total">0.00</span></h3>
+    </form>
+    <script src="amigos.js"></script>
+</body>
+</html>
